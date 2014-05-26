@@ -4,7 +4,11 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
          
+  def name= (aName)
+    @name = [self.first_name, self.last_name].compact.join(' ')
+  end
+  
   def name
-    [first_name, last_name].compact.join(' ')
+    return @name
   end
 end
