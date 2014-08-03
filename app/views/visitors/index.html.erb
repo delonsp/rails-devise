@@ -1,2 +1,2 @@
 <h3>Bem Vindo</h3>
-<p><%= link_to 'Usuários:', users_path %> <%= User.count %> registrados</p>
+<p><%= link_to 'Usuários:', users_path %> <%= "#{User.count} registrado".to_s.pluralize %></p>
