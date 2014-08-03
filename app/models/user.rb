@@ -3,12 +3,9 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-         
-  def name= (aName)
-    @name = [self.first_name, self.last_name].compact.join(' ')
-  end
-  
+
   def name
-    return @name
+    [first_name, last_name].compact.join(' ')
   end
+
 end
