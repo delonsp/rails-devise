@@ -14,6 +14,7 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'pg'
 gem 'i18n', '~> 0.6.11'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
