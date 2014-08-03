@@ -11,7 +11,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'devise-i18n'
 gem 'pg'
 gem 'i18n', '~> 0.6.11'
 

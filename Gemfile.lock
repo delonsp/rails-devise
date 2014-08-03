@@ -63,7 +63,6 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    devise-i18n (0.10.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -203,7 +202,6 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   database_cleaner
   devise
-  devise-i18n
   factory_girl_rails
   faker
   i18n (~> 0.6.11)
