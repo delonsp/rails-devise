@@ -13,6 +13,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'pg'
 gem 'i18n', '~> 0.6.11'
+gem 'rails-i18n'
 
 group :development do
   gem 'better_errors'
@@ -25,7 +26,7 @@ group :development, :test do
   gem 'rspec-rails', '>= 3.0.0.beta2'
 end
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>=2.3.0'
   gem 'database_cleaner'
   gem 'faker'
   gem 'launchy'
